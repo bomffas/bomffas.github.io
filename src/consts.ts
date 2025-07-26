@@ -3,3 +3,5 @@
 
 export const SITE_TITLE = "Astro Blog";
 export const SITE_DESCRIPTION = "Welcome to my website!";
+export const EMAIL_EN = "hi@joaobomfim.com";
+export const EMAIL_BR = "oi@joaobomfim.com.br";
