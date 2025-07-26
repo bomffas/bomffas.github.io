@@ -5,3 +5,8 @@ export const SITE_TITLE = "Astro Blog";
 export const SITE_DESCRIPTION = "Welcome to my website!";
 export const EMAIL_EN = "hi@joaobomfim.com";
 export const EMAIL_BR = "oi@joaobomfim.com.br";
+
+// Social Media
+export const LINKEDIN = "https://www.linkedin.com/in/bomffas/";
+export const X = "https://x.com/bomffas";
+export const GITHUB = "https://github.com/bomffas";
