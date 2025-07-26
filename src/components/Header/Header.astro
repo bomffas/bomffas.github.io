@@ -1,0 +1,20 @@
+---
+import "./Header.css";
+import {EMAIL_EN} from "@/consts";
+---
+
+<header class="header">
+	<nav class="header__navigation">
+		<div class="header__contact">
+            {EMAIL_EN}
+		</div>
+		<button class="header__menu-toggle"></button>
+		<div class="header__menu">
+			<ul class="header__menu-ul">
+				<li><a class="paragraph header__menu-link" href="#">Home</a></li>
+				<li><a class="paragraph header__menu-link" href="#">About</a></li>
+				<li><a class="paragraph header__menu-link" href="#">Blog</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
