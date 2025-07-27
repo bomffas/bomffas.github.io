@@ -1,0 +1,10 @@
+.footer {
+	margin: 200px 0 32px 0;
+	text-align: center;
+	color: var(--gray);
+	font-family: Inter, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
