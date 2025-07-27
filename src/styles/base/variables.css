@@ -16,6 +16,12 @@
 	initial-value: #818181;
 }
 
+@property --gray-secondary {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: #1b1919;
+}
+
 @property --darken-gray {
 	syntax: "<color>";
 	inherits: false;
