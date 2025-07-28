@@ -1,9 +1,9 @@
 ---
 interface PFormattedDate {
-    date: Date;
+	date: Date;
 }
 
-const {date} = Astro.props as PFormattedDate;
+const { date } = Astro.props as PFormattedDate;
 ---
 
 <time datetime={date.toISOString()}>

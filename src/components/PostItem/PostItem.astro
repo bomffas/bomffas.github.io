@@ -1,17 +1,17 @@
 ---
 import "./PostItem.css";
 
-import {Image} from "astro:assets";
+import { Image } from "astro:assets";
 import FormattedDate from "@components/FormattedDate.astro";
 
 interface IPostItem {
-    heroImage: string;
-    id: string;
-    title: string;
-    date: Date;
+	heroImage: string;
+	id: string;
+	title: string;
+	date: Date;
 }
 
-const {heroImage, id, title, date} = Astro.props as IPostItem;
+const { heroImage, id, title, date } = Astro.props as IPostItem;
 ---
 
 <li class='post-item'>

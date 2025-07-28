@@ -1,11 +1,11 @@
 ---
 import "./BlogList.css";
 
-import {getCollection} from "astro:content";
+import { getCollection } from "astro:content";
 import PostItem from "@components/PostItem/PostItem.astro";
 
 const posts = (await getCollection("blog")).sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
 posts.length = 4;
