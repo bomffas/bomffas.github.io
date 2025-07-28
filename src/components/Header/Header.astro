@@ -1,6 +1,7 @@
 ---
 import "./Header.css";
-import { EMAIL_EN } from "@/consts";
+import HeaderLink from "@/components/HeaderLink.astro";
+import {EMAIL_EN} from "@/consts";
 ---
 
 <header class="header">
@@ -11,9 +12,15 @@ import { EMAIL_EN } from "@/consts";
 		<button class="header__menu-toggle"></button>
 		<div class="header__menu">
 			<ul class="header__menu-ul">
-				<li><a class="paragraph header__menu-link" href="/">Home</a></li>
-				<li><a class="paragraph header__menu-link" href="/about">About</a></li>
-				<li><a class="paragraph header__menu-link" href="/blog">Blog</a></li>
+				<li>
+					<HeaderLink class="paragraph header__menu-link" href="/">Home</HeaderLink>
+				</li>
+				<li>
+					<HeaderLink class="paragraph header__menu-link" href="/blog">Blog</HeaderLink>
+				</li>
+				<li>
+					<HeaderLink class="paragraph header__menu-link" href="/about">About</HeaderLink>
+				</li>
 			</ul>
 		</div>
 	</nav>
