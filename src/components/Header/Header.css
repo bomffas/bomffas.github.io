@@ -29,6 +29,10 @@
 .header__menu-link {
 	color: var(--white);
 	text-decoration: none;
+
+	&.active {
+		font-weight: bold;
+	}
 }
 
 @media (width <= 560px) {

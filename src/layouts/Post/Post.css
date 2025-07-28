@@ -1,0 +1,123 @@
+.post {
+	width: 100%;
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-top: 80px;
+
+	.twitter-tweet.twitter-tweet-rendered {
+		margin: 0 auto;
+	}
+}
+
+.post__title {
+	margin-bottom: 80px;
+}
+
+.post__hero-picture {
+	width: 100%;
+	margin-bottom: 48px;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: var(--white);
+}
+
+.post__hero-image {
+	width: 100%;
+	height: auto;
+}
+
+.post__content {
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Bebas Neue", sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: calc(28px * 1.5);
+		color: var(--white);
+
+		&:not(:last-child) {
+			margin-bottom: 16px;
+			margin-top: 32px;
+		}
+	}
+
+	p {
+		font-family: Inter, sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+		color: var(--gray);
+
+		&:not(:last-child) {
+			margin-bottom: 16px;
+		}
+	}
+
+	a {
+		color: var(--white);
+		font-weight: bold;
+	}
+
+	ul,
+	ol {
+		font-family: Inter, sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+		color: var(--gray);
+		padding-left: 20px;
+
+		li {
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	blockquote {
+		border-left: 2px solid var(--gray);
+		padding: 10px 0 10px 20px;
+		margin-bottom: 16px;
+		background-color: #3f3f3f45;
+	}
+
+	.post__iframe-content {
+		padding-bottom: 56.25%;
+		position: relative;
+		display: block;
+		width: 100%;
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	img {
+		width: auto;
+		height: auto;
+		border-radius: 20px;
+	}
+}
+
+@media (width >= 768px) {
+	.post__content p {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+	}
+
+	.post__hero-picture {
+		max-height: 560px;
+	}
+}

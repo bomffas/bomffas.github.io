@@ -1,11 +1,12 @@
 ---
-import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer/Footer.astro";
-import FormattedDate from "@components/FormattedDate.astro";
 import Header from "@components/Header/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
+import PostItem from "../../components/PostItem/PostItem.astro";
+
+import "./Blog.css";
 
 const posts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -20,23 +21,17 @@ const posts = (await getCollection("blog")).sort(
 <body>
 <Header/>
 <main>
-	<section>
+	<section class="blog">
+		<h2 class="display blog__title">Blog</h2>
 		<ul>
-            {
-                posts.map((post) => (
-						<li>
-							<a href={`/blog/${post.id}/`}>
-                                {post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt=""/>
-                                )}
-								<h4 class="title">{post.data.title}</h4>
-								<p class="date">
-									<FormattedDate date={post.data.pubDate}/>
-								</p>
-							</a>
-						</li>
-                ))
-            }
+			<ul class="blog__list">
+                {
+                    posts.map((post) => (
+							<PostItem id={post.id} date={post.data.pubDate} heroImage={post.data.heroImage}
+									  title={post.data.title}/>
+                    ))
+                }
+			</ul>
 		</ul>
 	</section>
 </main>
