@@ -1,4 +1,4 @@
-name: Code quality
+name: Code Quality
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [main, develop]
 
 jobs:
-  quality:
+  biomejs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
