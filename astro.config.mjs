@@ -6,7 +6,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
 	site: "https://bomffas.github.io",
-	base: "blog",
+	base: "/blog",
 	integrations: [mdx(), sitemap()],
 	vite: {
 		resolve: {
