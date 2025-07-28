@@ -1,0 +1,21 @@
+.blog {
+	padding-top: 80px;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+.blog__title {
+	margin-bottom: 64px;
+}
+
+.blog__list {
+	display: grid;
+	gap: 40px;
+}
+
+@media (width >= 768px) {
+	.blog__list {
+		grid-template-rows: auto auto;
+		grid-template-columns: 1fr 1fr;
+	}
+}
