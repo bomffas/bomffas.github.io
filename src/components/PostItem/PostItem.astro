@@ -1,0 +1,29 @@
+---
+import "./PostItem.css";
+
+import {Image} from "astro:assets";
+import FormattedDate from "@components/FormattedDate.astro";
+
+interface IPostItem {
+    heroImage: string;
+    id: string;
+    title: string;
+    date: Date;
+}
+
+const {heroImage, id, title, date} = Astro.props as IPostItem;
+---
+
+<li class='post-item'>
+	<a class='post-item__link' href={`/blog/${id}/`} title="Read the text">
+		<div class='post-item__cover'>
+            {heroImage && (
+					<Image width={720} height={360}
+						   src={heroImage} alt={title} class="post-item__img"/>
+            )}
+		</div>
+		<p class="heading-three post-item__title">{title}</p>
+		<span class="heading-three post-item__date"><FormattedDate
+				date={date}/></span>
+	</a>
+</li>

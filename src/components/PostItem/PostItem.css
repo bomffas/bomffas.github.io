@@ -1,0 +1,49 @@
+.post-item {
+	list-style: none;
+}
+
+.post-item__link {
+	display: grid;
+	grid-template-areas:
+		"cover cover"
+		"title date";
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr;
+	row-gap: 16px;
+	column-gap: 16px;
+	text-decoration: none;
+}
+
+.post-item__cover {
+	grid-area: cover;
+	border-radius: 20px;
+	width: 100%;
+	overflow: hidden;
+	height: 300px;
+	background-color: var(--white);
+	transition: all 0.3s ease-in-out;
+
+	.post-item__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+.post-item__link:hover {
+	.post-item__cover {
+		filter: drop-shadow(4px 3px 0px var(--white));
+	}
+}
+
+.post-item__title {
+	grid-area: title;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.post-item__date {
+	grid-area: date;
+}
