@@ -7,4 +7,58 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
+	padding-bottom: 64px;
+}
+
+.footer {
+	padding-top: 100px;
+	text-align: center;
+	max-width: 910px;
+	margin: 0 auto;
+}
+
+.footer__title {
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 90%;
+	color: var(--white);
+}
+
+.footer__email {
+	display: inline-flex;
+	padding: 16px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 12px;
+	border: 1px solid #3f3f3f;
+	color: var(--white);
+	text-decoration: none;
+	margin-top: 60px;
+	margin-bottom: 200px;
+}
+
+@media (width > 768px) {
+	.footer__title {
+		text-align: center;
+		font-size: 150px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 90%;
+	}
+}
+
+@media (width < 768px) {
+	.footer__title {
+		br {
+			display: none;
+		}
+	}
+
+	.footer__email {
+		margin-bottom: 100px;
+	}
 }

@@ -1,0 +1,35 @@
+---
+import "./BlogList.css";
+
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import FormattedDate from "@components/FormattedDate.astro";
+
+const posts = (await getCollection("blog")).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+posts.length = 4;
+---
+<section class='blog-list'>
+	<h4 class="blog-list__main-title heading-one">
+		The work I do,and business I help.
+	</h4>
+	<ul class="blog-list__list">
+        {
+            posts.map((post) => (
+					<li class='blog-list__post'>
+						<a class='blog-list__post-link' href={`/blog/${post.id}/`} title="Read the text">
+                            {post.data.heroImage && (
+									<Image class='blog-list__post-cover' width={720} height={360}
+										   src={post.data.heroImage} alt={post.data.title}/>
+                            )}
+							<p class="heading-three blog-list__post-title">{post.data.title}</p>
+							<span class="heading-three blog-list__post-date"><FormattedDate
+									date={post.data.pubDate}/></span>
+						</a>
+					</li>
+            ))
+        }
+	</ul>
+	<a class="blog-list__read-more heading-two"> Read more </a>
+</section>
