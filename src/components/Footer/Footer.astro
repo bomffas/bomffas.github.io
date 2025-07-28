@@ -1,8 +1,12 @@
 ---
 const today = new Date();
+
+import {EMAIL_BR} from "@/consts";
 import "./Footer.css";
 ---
 
 <footer class="footer">
-	&copy; {today.getFullYear()} João Bomfim. Todos os direitos reservados.
+	<h5 class='footer__title'>lets gets working <br> together</h5>
+	<a class='footer__email heading-two' href={`mailto:${EMAIL_BR}`}>{EMAIL_BR}</a>
+	<p>&copy; {today.getFullYear()} João Bomfim. Todos os direitos reservados.</p>
 </footer>
