@@ -12,23 +12,23 @@ No curso você tem um _overview_ sobre as responsabilidades de um PM, além de s
 Aplicamos cada assunto no problema que o time escolheu para solucionar. No caso escolhemos a dor de um dos integrantes, que era a possibilidade de escolher uma viagem apenas passando a quantidade de milhas, origem e quantidade de dias, o que é bem diferente das formas como se busca viagem atualmente.
 
 Algumas etapas do processo:
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897366624/01c9a2ba-d89a-4418-9f5d-588ad1c1cb9e.jpeg)
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897368862/8423d639-8d84-4b44-80f5-99725a7bafdf.jpeg)
+![](../../assets/01c9a2ba-d89a-4418-9f5d-588ad1c1cb9e.webp)
+![](../../assets/8423d639-8d84-4b44-80f5-99725a7bafdf.webp)
 
 À esquerda temos post-its de CNP (Como nós podemos?) e na direita SQP (Será que podemos?)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897371025/483056e6-c949-4ae4-93ef-e40f35ef4317.jpeg)
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897372963/7cd6af9e-d5da-4cbf-86c9-d0b3081ac2e4.jpeg)
+![](../../assets/483056e6-c949-4ae4-93ef-e40f35ef4317.webp)
+![](../../assets/7cd6af9e-d5da-4cbf-86c9-d0b3081ac2e4.webp)
 
 Protótipos da solução encontrada.
 
 PM fica na intersecção entre _UX_ e _Business_, onde tem que se manter o equilíbrio, nenhum dos lados pode pender demais, senão o produto pode quebrar. A palavra achismo não existe, tudo deve ser orientado a teste, validações e métricas daquilo que é importante para o produto. Além dos números, testes, métricas, PM também tem que liderar pessoas e passar a visão do produto a elas.
 
-Além do conteúdo do curso, que é muito bom, as experiências de acertos e erros do Arthur e do Horácio ajudam a entender que nada é bala de prata, que tudo pode/deve ser adaptado dependendo do contexto do seu produto.
+Além do conteúdo do curso, que é ótimo, as experiências de acertos e erros do Arthur e do Horácio ajudam a entender que nada é bala de prata, que tudo pode/deve ser adaptado dependendo do contexto do seu produto.
 
 Galera reunida para a foto.
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897374559/49c0d79e-291c-4c68-845a-85907b1d0582.jpeg)
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691897376372/b6c702ab-4665-4d26-b387-b6c55fd9e3e8.jpeg)
+![](../../assets/49c0d79e-291c-4c68-845a-85907b1d0582.webp)
+![](../../assets/b6c702ab-4665-4d26-b387-b6c55fd9e3e8.webp)
 
 À esquerda Horácio falando sobre sua trajetória profissional e na direita meu grupo apresentando a solução para o problema.
 
