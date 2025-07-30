@@ -12,91 +12,110 @@ import PDFToDownload from "@/assets/Joao_Bomfim_-_Front_End_Developer.pdf";
 
 <!doctype html>
 <html lang="en">
-<head>
-	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
-</head>
-<body>
-<Header/>
-<main>
-	<section class="about">
-		<picture class="about__user-picture">
-			<Image alt="sdsd" src={userPhoto} class="about__user-image"/>
-		</picture>
-		
-		<div class="about__info">
-			
-			<h2 class="display about__title">
-				HI. I'm Bomfim 😄
-			</h2>
-			
-			<p class="body-regular about__paragraph">As a freelance design freelancer, I bring 4 years of experience and
-				passion for
-				designer, visual
-				graphic & development. With a strong track record of delivering high quality work and exceeding
-				client expectations, I thrive in a dynamic and fast-paced environment. My expertise lies in
-				developing designs and prioritizing clients and solutions, enabling me to handle various projects
-				and provide customized solutions.</p>
-			
-			<div class="about__action">
-				<a href={LINKEDIN} rel="nofollow" title="Linkedin" class="button">Lets Connect</a>
-				<a href={PDFToDownload} class="button outline" download>Download CV</a>
-			</div>
-		
-		</div>
-		
-		<div class="work-experience">
-			<h3 class="heading-one work-experience__title">Work Experience</h3>
-			<ul class="work-experience__list">
-				<li class="work-experience__work">
-					<span class="heading-two work-experience__business">Mid FrontEnd Engineer - VBet Brasil</span>
-					<span class="work-experience__period">Jan, 2025 - Now</span>
-				</li>
-				
-				<li class="work-experience__work">
-					<span class="heading-two work-experience__business">Mid FrontEnd Engineer - Atomos Offical</span>
-					<span class="work-experience__period">Out, 2023 - Jan, 2025</span>
-				</li>
-				
-				<li class="work-experience__work">
-					<span class="heading-two work-experience__business">Mid FrontEnd Engineer - Juntos Somos Mais</span>
-					<span class="work-experience__period">Dez, 2021 - Out, 2023</span>
-				</li>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="about">
+        <picture class="about__user-picture">
+          <Image alt="sdsd" src={userPhoto} class="about__user-image" />
+        </picture>
 
-				<li class="work-experience__work">
-					<span class="heading-two work-experience__business">Software Senior Engineer - WPP</span>
-					<span class="work-experience__period">Abr, 2018 - Nov, 2021</span>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="about__technologies">
-			<h3 class="heading-one about__technologies-title">I have skills with</h3>
-			<ul class="about__technologies-list">
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">React</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">Vue</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">WordPress</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">Adobe Experience Manager</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">Tailwind CSS</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">SASS</span>
-				</li>
-				<li class="about__technologies-each">
-					<span class="heading-two about__technologies-name">Unit Tests</span>
-				</li>
-			</ul>
-		</div>
-	</section>
-</main>
-<Footer/>
-</body>
+        <div class="about__info">
+          <h2 class="display about__title">HI. I'm Bomfim 😄</h2>
+
+          <p class="body-regular about__paragraph">
+            As a freelance design freelancer, I bring 4 years of experience and
+            passion for designer, visual graphic & development. With a strong
+            track record of delivering high quality work and exceeding client
+            expectations, I thrive in a dynamic and fast-paced environment. My
+            expertise lies in developing designs and prioritizing clients and
+            solutions, enabling me to handle various projects and provide
+            customized solutions.
+          </p>
+
+          <div class="about__action">
+            <a href={LINKEDIN} rel="nofollow" title="Linkedin" class="button"
+              >Lets Connect</a
+            >
+            <a href={PDFToDownload} class="button outline" download
+              >Download CV</a
+            >
+          </div>
+        </div>
+
+        <div class="work-experience">
+          <h3 class="heading-one work-experience__title">Work Experience</h3>
+          <ul class="work-experience__list">
+            <li class="work-experience__work">
+              <span class="heading-two work-experience__business"
+                >Mid FrontEnd Engineer - VBet Brasil</span
+              >
+              <span class="work-experience__period">Jan, 2025 - Now</span>
+            </li>
+
+            <li class="work-experience__work">
+              <span class="heading-two work-experience__business"
+                >Mid FrontEnd Engineer - Atomos Offical</span
+              >
+              <span class="work-experience__period">Out, 2023 - Jan, 2025</span>
+            </li>
+
+            <li class="work-experience__work">
+              <span class="heading-two work-experience__business"
+                >Mid FrontEnd Engineer - Juntos Somos Mais</span
+              >
+              <span class="work-experience__period">Dez, 2021 - Out, 2023</span>
+            </li>
+
+            <li class="work-experience__work">
+              <span class="heading-two work-experience__business"
+                >Software Senior Engineer - WPP</span
+              >
+              <span class="work-experience__period">Abr, 2018 - Nov, 2021</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__technologies">
+          <h3 class="heading-one about__technologies-title">
+            I have skills with
+          </h3>
+          <ul class="about__technologies-list">
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name">React</span>
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name">Vue</span>
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name">WordPress</span
+              >
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name"
+                >Adobe Experience Manager</span
+              >
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name"
+                >Tailwind CSS</span
+              >
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name">SASS</span>
+            </li>
+            <li class="about__technologies-each">
+              <span class="heading-two about__technologies-name"
+                >Unit Tests</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -1,13 +1,13 @@
 ---
-title: 'Minha experiência no curso Product Manager da Product Arena'
-description: 'Experiência completa no curso Product Manager da Product Arena. Aprenda sobre Design Sprint, métricas, user research e liderança de produto. Vale a pena para quem quer entrar em produto.'
-pubDate: 'Sep 3 2018'
-heroImage: '../../assets/d68f68f6-3e3d-458c-922c-b1be9c3a6a5e.jpeg'
+title: "Minha experiência no curso Product Manager da Product Arena"
+description: "Experiência completa no curso Product Manager da Product Arena. Aprenda sobre Design Sprint, métricas, user research e liderança de produto. Vale a pena para quem quer entrar em produto."
+pubDate: "Sep 3 2018"
+heroImage: "../../assets/d68f68f6-3e3d-458c-922c-b1be9c3a6a5e.jpeg"
 ---
 
-No último final de semana (1 e 2/9) participei do 14º *Product Manager* da *Product Arena* com [Horácio Soares](https://medium.com/u/9a8a5b6f1785) e [Arthur Castro](https://medium.com/u/990e7599ce69).
+No último final de semana (1 e 2/9) participei do 14º _Product Manager_ da _Product Arena_ com [Horácio Soares](https://medium.com/u/9a8a5b6f1785) e [Arthur Castro](https://medium.com/u/990e7599ce69).
 
-No curso você tem um *overview* sobre as responsabilidades de um PM, além de ser apresentado à metodologia *Design Sprint* e assuntos como Métricas, User Research \\o/ e Liderança de Produto, tudo em um misto de teoria com mão na massa.
+No curso você tem um _overview_ sobre as responsabilidades de um PM, além de ser apresentado à metodologia _Design Sprint_ e assuntos como Métricas, User Research \\o/ e Liderança de Produto, tudo em um misto de teoria com mão na massa.
 
 Aplicamos cada assunto no problema que o time escolheu para solucionar. No caso escolhemos a dor de um dos integrantes, que era a possibilidade de escolher uma viagem apenas passando a quantidade de milhas, origem e quantidade de dias, o que é bem diferente das formas como se busca viagem atualmente.
 
@@ -22,7 +22,7 @@ Algumas etapas do processo:
 
 Protótipos da solução encontrada.
 
-PM fica na intersecção entre *UX* e *Business*, onde tem que se manter o equilíbrio, nenhum dos lados pode pender demais, senão o produto pode quebrar. A palavra achismo não existe, tudo deve ser orientado a teste, validações e métricas daquilo que é importante para o produto. Além dos números, testes, métricas, PM também tem que liderar pessoas e passar a visão do produto a elas.
+PM fica na intersecção entre _UX_ e _Business_, onde tem que se manter o equilíbrio, nenhum dos lados pode pender demais, senão o produto pode quebrar. A palavra achismo não existe, tudo deve ser orientado a teste, validações e métricas daquilo que é importante para o produto. Além dos números, testes, métricas, PM também tem que liderar pessoas e passar a visão do produto a elas.
 
 Além do conteúdo do curso, que é muito bom, as experiências de acertos e erros do Arthur e do Horácio ajudam a entender que nada é bala de prata, que tudo pode/deve ser adaptado dependendo do contexto do seu produto.
 

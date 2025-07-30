@@ -1,72 +1,72 @@
 .header {
-	padding: 20px 0;
-	color: var(--white);
-	font-family: "Bebas Neue", sans-serif;
+  padding: 20px 0;
+  color: var(--white);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .header__navigation {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__menu-toggle {
-	display: none;
+  display: none;
 }
 
 .header__contact {
-	display: inline-block;
+  display: inline-block;
 }
 
 .header__menu-ul {
-	padding: 0;
-	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 18px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
 
 .header__menu-link {
-	color: var(--white);
-	text-decoration: none;
+  color: var(--white);
+  text-decoration: none;
 
-	&.active {
-		font-weight: bold;
-	}
+  &.active {
+    font-weight: bold;
+  }
 }
 
 @media (width <= 560px) {
-	.header__menu {
-		position: absolute;
-		top: 64px;
-		left: 0;
-		width: 100vw;
-		height: auto;
-		border-top: 1px solid var(--white);
-		padding: 20px 0;
-		background-color: var(--light-black);
-		display: none;
-		justify-content: center;
-	}
+  .header__menu {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    border-top: 1px solid var(--white);
+    padding: 20px 0;
+    background-color: var(--light-black);
+    display: none;
+    justify-content: center;
+  }
 
-	.header__menu-toggle {
-		display: inline-flex;
-		width: 24px;
-		height: 24px;
-		background-color: transparent;
-		border: 0;
-		background-image:
-			linear-gradient(to left, var(--white), var(--white)),
-			linear-gradient(to left, var(--white), var(--white)),
-			linear-gradient(to left, var(--white), var(--white));
-		background-size:
-			100% 1px,
-			100% 1px,
-			100% 1px;
-		background-repeat: no-repeat, no-repeat, no-repeat;
-		background-position:
-			top center,
-			center center,
-			bottom center;
-	}
+  .header__menu-toggle {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 0;
+    background-image:
+      linear-gradient(to left, var(--white), var(--white)),
+      linear-gradient(to left, var(--white), var(--white)),
+      linear-gradient(to left, var(--white), var(--white));
+    background-size:
+      100% 1px,
+      100% 1px,
+      100% 1px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+      top center,
+      center center,
+      bottom center;
+  }
 }

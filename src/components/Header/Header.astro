@@ -1,27 +1,33 @@
 ---
 import "./Header.css";
 import HeaderLink from "@/components/HeaderLink.astro";
-import {EMAIL_EN} from "@/consts";
+import { EMAIL_EN } from "@/consts";
 ---
 
 <header class="header">
-	<nav class="header__navigation">
-		<h1 class="header__contact heading-three">
-            {EMAIL_EN}
-		</h1>
-		<button class="header__menu-toggle" title="Open or close the menu"></button>
-		<div class="header__menu">
-			<ul class="header__menu-ul">
-				<li>
-					<HeaderLink class="paragraph header__menu-link" href="/">Home</HeaderLink>
-				</li>
-				<li>
-					<HeaderLink class="paragraph header__menu-link" href="/blog">Blog</HeaderLink>
-				</li>
-				<li>
-					<HeaderLink class="paragraph header__menu-link" href="/about">About</HeaderLink>
-				</li>
-			</ul>
-		</div>
-	</nav>
+  <nav class="header__navigation">
+    <h1 class="header__contact heading-three">
+      {EMAIL_EN}
+    </h1>
+    <button class="header__menu-toggle" title="Open or close the menu"></button>
+    <div class="header__menu">
+      <ul class="header__menu-ul">
+        <li>
+          <HeaderLink class="paragraph header__menu-link" href="/"
+            >Home</HeaderLink
+          >
+        </li>
+        <li>
+          <HeaderLink class="paragraph header__menu-link" href="/blog"
+            >Blog</HeaderLink
+          >
+        </li>
+        <li>
+          <HeaderLink class="paragraph header__menu-link" href="/about"
+            >About</HeaderLink
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>

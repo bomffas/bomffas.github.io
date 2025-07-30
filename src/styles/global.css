@@ -4,12 +4,12 @@
 @import url("base/button.css");
 
 body {
-	background-color: var(--black);
-	padding: 0 20px;
+  background-color: var(--black);
+  padding: 0 20px;
 }
 
 @media (width >= 1024px) {
-	body {
-		padding: 0 80px;
-	}
+  body {
+    padding: 0 80px;
+  }
 }
