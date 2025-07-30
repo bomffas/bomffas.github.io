@@ -1,8 +1,8 @@
 ---
-title: 'Mergo UX Team Summit — 2017'
-description: 'Relato do primeiro UX Team Summit: times da Youse, Avanade, SIDIA e TOTVS compartilharam experiências reais de implementação de UX. Evento fundamental para profissionais da área.'
-pubDate: 'Jul 30 2017'
-heroImage: '../../assets/ux-team-summit-merge-2017.jpeg'
+title: "Mergo UX Team Summit — 2017"
+description: "Relato do primeiro UX Team Summit: times da Youse, Avanade, SIDIA e TOTVS compartilharam experiências reais de implementação de UX. Evento fundamental para profissionais da área."
+pubDate: "Jul 30 2017"
+heroImage: "../../assets/ux-team-summit-merge-2017.jpeg"
 ---
 
 No último sábado, 29, aconteceu o primeiro [UX Team Summit](http://uxteamsummit.com.br/), evento que tem a proposta de que times que já têm UX no seu processo de criação compartilhem experiências de como foi a inclusão de UX.

@@ -1,46 +1,46 @@
 .feature {
-	padding-top: 80px;
-	max-width: 780px;
-	margin: 0 auto;
+  padding-top: 80px;
+  max-width: 780px;
+  margin: 0 auto;
 }
 
 .feature__author-image {
-	border-radius: 100%;
-	overflow: hidden;
-	margin: auto;
-	width: 100px;
-	height: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: auto;
+  width: 100px;
+  height: auto;
 }
 
 .feature__title {
-	margin-top: 40px;
-	margin-bottom: 24px;
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
 
 .feature__paragraph {
-	text-align: center;
+  text-align: center;
 }
 
 .feature__social {
-	display: flex;
-	gap: 16px;
-	justify-content: center;
-	margin: 56px 0;
-	padding: 0;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 56px 0;
+  padding: 0;
 }
 
 .feature__svg {
-	fill: var(--white);
+  fill: var(--white);
 }
 
 .feature__social-item {
-	display: inline-flex;
-	width: 50px;
-	height: 50px;
-	border-radius: 40px;
-	border: 1px solid var(--darken-gray);
-	justify-content: center;
-	align-items: center;
-	padding: 14px;
-	color: var(--white);
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  border: 1px solid var(--darken-gray);
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  color: var(--white);
 }

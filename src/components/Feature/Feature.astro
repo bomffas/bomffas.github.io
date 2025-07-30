@@ -6,50 +6,65 @@ import { GITHUB, LINKEDIN, X } from "@/consts";
 ---
 
 <section class="feature">
-	<div>
-		<picture>
-			<Image alt="sdsd" src={userPhoto} class="feature__author-image"/>
-		</picture>
-		<h2 class="display feature__title">
-			I'm Bomfim Developer
-			based in Brazil
-		</h2>
-		<p class="body-regular feature__paragraph">
-			a product designer and visual developer based in los angeles. I am skilled in visual development, responsive
-			web design and UI/UX design.
-		</p>
-		<ul class="feature__social">
-			<li>
-				<a href={LINKEDIN} target="_blank" rel="nofollow" class="feature__social-item">
-					<svg class="feature__svg" xmlns="http://www.w3.org/2000/svg" width="19" height="18"
-						 viewBox="0 0 19 18">
-						<path d="M9.24286 6.22286C10.1861 5.25909 11.4142 4.62857 12.8429 4.62857C14.3432 4.62857 15.7821 5.22459 16.8431 6.28551C17.904 7.34643 18.5 8.78535 18.5 10.2857V18H16.4429V10.2857C16.4429 9.33093 16.0636 8.41526 15.3884 7.74013C14.7133 7.065 13.7976 6.68571 12.8429 6.68571C11.8881 6.68571 10.9724 7.065 10.2973 7.74013C9.62214 8.41526 9.24286 9.33093 9.24286 10.2857V18H7.18571V5.14286H9.24286V6.22286ZM2.04286 3.08571C1.63367 3.08571 1.24123 2.92316 0.951892 2.63382C0.662551 2.34448 0.5 1.95205 0.5 1.54286C0.5 1.13367 0.662551 0.741234 0.951892 0.451892C1.24123 0.162551 1.63367 0 2.04286 0C2.45205 0 2.84448 0.162551 3.13382 0.451892C3.42316 0.741234 3.58571 1.13367 3.58571 1.54286C3.58571 1.95205 3.42316 2.34448 3.13382 2.63382C2.84448 2.92316 2.45205 3.08571 2.04286 3.08571ZM1.01429 5.14286H3.07143V18H1.01429V5.14286Z"
-							  fill="white"/>
-					</svg>
-				</a>
-			</li>
-			<li>
-				<a href={X} target="_blank" rel="nofollow" class="feature__social-item">
-					<svg class="feature__svg" viewBox="0 0 24 24" aria-hidden="true">
-						<g>
-							<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-						</g>
-					</svg>
-				</a>
-			</li>
+  <div>
+    <picture>
+      <Image alt="sdsd" src={userPhoto} class="feature__author-image" />
+    </picture>
+    <h2 class="display feature__title">I'm Bomfim Developer based in Brazil</h2>
+    <p class="body-regular feature__paragraph">
+      a product designer and visual developer based in los angeles. I am skilled
+      in visual development, responsive web design and UI/UX design.
+    </p>
+    <ul class="feature__social">
+      <li>
+        <a
+          href={LINKEDIN}
+          target="_blank"
+          rel="nofollow"
+          class="feature__social-item"
+        >
+          <svg
+            class="feature__svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="19"
+            height="18"
+            viewBox="0 0 19 18"
+          >
+            <path
+              d="M9.24286 6.22286C10.1861 5.25909 11.4142 4.62857 12.8429 4.62857C14.3432 4.62857 15.7821 5.22459 16.8431 6.28551C17.904 7.34643 18.5 8.78535 18.5 10.2857V18H16.4429V10.2857C16.4429 9.33093 16.0636 8.41526 15.3884 7.74013C14.7133 7.065 13.7976 6.68571 12.8429 6.68571C11.8881 6.68571 10.9724 7.065 10.2973 7.74013C9.62214 8.41526 9.24286 9.33093 9.24286 10.2857V18H7.18571V5.14286H9.24286V6.22286ZM2.04286 3.08571C1.63367 3.08571 1.24123 2.92316 0.951892 2.63382C0.662551 2.34448 0.5 1.95205 0.5 1.54286C0.5 1.13367 0.662551 0.741234 0.951892 0.451892C1.24123 0.162551 1.63367 0 2.04286 0C2.45205 0 2.84448 0.162551 3.13382 0.451892C3.42316 0.741234 3.58571 1.13367 3.58571 1.54286C3.58571 1.95205 3.42316 2.34448 3.13382 2.63382C2.84448 2.92316 2.45205 3.08571 2.04286 3.08571ZM1.01429 5.14286H3.07143V18H1.01429V5.14286Z"
+              fill="white"></path>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href={X} target="_blank" rel="nofollow" class="feature__social-item">
+          <svg class="feature__svg" viewBox="0 0 24 24" aria-hidden="true">
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              ></path>
+            </g>
+          </svg>
+        </a>
+      </li>
 
-			<li>
-				<a href={GITHUB} target="_blank" rel="nofollow" class="feature__social-item">
-					<svg class="feature__svg" viewBox="0 0 16 16" aria-hidden="true">
-						<path fill="currentColor"
-							  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-							  data-astro-cid-sz7xmlte="">
-						</path>
-					</svg>
-				</a>
-			</li>
-
-
-		</ul>
-	</div>
+      <li>
+        <a
+          href={GITHUB}
+          target="_blank"
+          rel="nofollow"
+          class="feature__social-item"
+        >
+          <svg class="feature__svg" viewBox="0 0 16 16" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              data-astro-cid-sz7xmlte=""
+            >
+            </path>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
 </section>

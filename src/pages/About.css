@@ -1,134 +1,134 @@
 .about {
-	display: grid;
-	margin: 80px auto 0 auto;
-	max-width: 1160px;
+  display: grid;
+  margin: 80px auto 0 auto;
+  max-width: 1160px;
 }
 
 .about__user-picture {
-	display: flex;
-	order: 2;
-	margin: 56px 0;
-	border-radius: 30px;
-	overflow: hidden;
+  display: flex;
+  order: 2;
+  margin: 56px 0;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .about__user-image {
-	width: auto;
-	height: auto;
+  width: auto;
+  height: auto;
 }
 
 .about__info {
-	order: 1;
+  order: 1;
 }
 
 .about__title {
-	margin-bottom: 8px;
-	text-align: left;
+  margin-bottom: 8px;
+  text-align: left;
 }
 
 .about__paragraph {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .about__action {
-	display: grid;
-	gap: 12px;
+  display: grid;
+  gap: 12px;
 }
 
 .about__technologies {
-	order: 3;
+  order: 3;
 }
 
 .about__technologies-list {
-	display: grid;
-	gap: 24px;
+  display: grid;
+  gap: 24px;
 }
 
 .about__technologies-title {
-	text-align: left;
-	margin-bottom: 62px;
+  text-align: left;
+  margin-bottom: 62px;
 }
 
 .about__technologies-name:before {
-	content: "#";
-	display: inline-flex;
+  content: "#";
+  display: inline-flex;
 }
 
 .work-experience {
-	order: 3;
-	margin: 0 0 56px 0;
+  order: 3;
+  margin: 0 0 56px 0;
 }
 
 .work-experience__title {
-	text-align: left;
-	margin-bottom: 62px;
+  text-align: left;
+  margin-bottom: 62px;
 }
 
 .work-experience__list {
-	display: grid;
-	gap: 16px;
+  display: grid;
+  gap: 16px;
 }
 
 .work-experience__work {
-	margin-left: 16px;
-	color: var(--white);
-	padding-left: 10px;
+  margin-left: 16px;
+  color: var(--white);
+  padding-left: 10px;
 }
 
 .work-experience__business {
-	display: flex;
-	line-height: calc(26px * 1.2);
+  display: flex;
+  line-height: calc(26px * 1.2);
 }
 
 .work-experience__period {
-	display: flex;
-	color: var(--white);
-	font-family: Inter, sans-serif;
-	font-size: 14px;
+  display: flex;
+  color: var(--white);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
 }
 
 @media (width >= 768px) {
-	.about {
-		grid-template-rows: auto auto auto;
-		grid-template-columns: 421px 1fr;
-		grid-template-areas:
-			"user-profile user-info"
-			"user-tech user-tech"
-			"user-work user-work";
-		gap: 40px;
-		align-items: flex-start;
-	}
+  .about {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 421px 1fr;
+    grid-template-areas:
+      "user-profile user-info"
+      "user-tech user-tech"
+      "user-work user-work";
+    gap: 40px;
+    align-items: flex-start;
+  }
 
-	.about__technologies {
-		grid-area: user-tech;
-	}
+  .about__technologies {
+    grid-area: user-tech;
+  }
 
-	.work-experience {
-		grid-area: user-work;
-	}
+  .work-experience {
+    grid-area: user-work;
+  }
 
-	.about__technologies-list {
-		display: flex;
-	}
+  .about__technologies-list {
+    display: flex;
+  }
 
-	.about__user-picture {
-		grid-area: user-profile;
-		margin: 0;
-	}
+  .about__user-picture {
+    grid-area: user-profile;
+    margin: 0;
+  }
 
-	.about__info {
-		grid-area: user-info;
-	}
+  .about__info {
+    grid-area: user-info;
+  }
 }
 
 @media (width >= 1024px) {
-	.about__action {
-		display: flex;
-	}
+  .about__action {
+    display: flex;
+  }
 }
 
 @media (width >= 1280px) {
-	.about {
-		gap: 94px;
-	}
+  .about {
+    gap: 94px;
+  }
 }

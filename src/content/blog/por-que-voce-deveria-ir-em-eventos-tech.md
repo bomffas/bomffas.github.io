@@ -1,8 +1,8 @@
 ---
-title: 'Por que você deveria ir em eventos tech'
-description: 'Descubra por que eventos de tecnologia são essenciais para desenvolvedores. Conheça pessoas, troque experiências e amplie conhecimentos além do código. Networking é fundamental para sua carreira em tech.'
-pubDate: 'Apr 23 2023'
-heroImage: '../../assets/eventos-tecnologia.png'
+title: "Por que você deveria ir em eventos tech"
+description: "Descubra por que eventos de tecnologia são essenciais para desenvolvedores. Conheça pessoas, troque experiências e amplie conhecimentos além do código. Networking é fundamental para sua carreira em tech."
+pubDate: "Apr 23 2023"
+heroImage: "../../assets/eventos-tecnologia.png"
 ---
 
 Desde que iniciei como desenvolvedor, uma das melhores coisas que fiz para agregar mais conhecimento e ter novas referências, foi ir em eventos. Um dos primeiros, o WordCamp, evento sobre o WordPress — que é um CMS em PHP —, vi algumas caras famosas da comunidade, e é claro, o vasto número de palestras sobre assuntos específicos que dificilmente veria em outros lugares.

@@ -9,39 +9,42 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
 <html lang="en">
-<head>
-	<BaseHead title={title} description={description}/>
-</head>
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
 
-<body>
-<Header/>
-<main>
-	<article class="post">
-		<h1 class="display post__title">{title}</h1>
-		<picture class="post__hero-picture">
-            {heroImage &&
-					<Image class="post__hero-image" src={heroImage} alt=""/>}
-		</picture>
-		<div class="prose">
-			<div class="title">
-				<div class="date">
-					<FormattedDate date={pubDate}/>
-                    {
-                        updatedDate && (
-									<div class="last-updated-on">
-										Last updated on
-										<FormattedDate date={updatedDate}/>
-									</div>
-                        )
-                    }
-				</div>
-			</div>
-			<div class="post__content">
-				<slot/>
-			</div>
-		</div>
-	</article>
-</main>
-<Footer/>
-</body>
+  <body>
+    <Header />
+    <main>
+      <article class="post">
+        <h1 class="display post__title">{title}</h1>
+        <picture class="post__hero-picture">
+          {
+            heroImage && (
+              <Image class="post__hero-image" src={heroImage} alt="" />
+            )
+          }
+        </picture>
+        <div class="prose">
+          <div class="title">
+            <div class="date">
+              <FormattedDate date={pubDate} />
+              {
+                updatedDate && (
+                  <div class="last-updated-on">
+                    Last updated on
+                    <FormattedDate date={updatedDate} />
+                  </div>
+                )
+              }
+            </div>
+          </div>
+          <div class="post__content">
+            <slot />
+          </div>
+        </div>
+      </article>
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -1,8 +1,8 @@
 ---
-title: 'FrontInBH 2017: Um evento mágico'
-description: 'Relato completo do FrontInBH 2017: primeira viagem de avião, palestras em inglês, networking no pós-evento e muito queijo. O melhor do front-end são as pessoas!'
-pubDate: 'Sep 30 2017'
-heroImage: '../../assets/C92qw1xXsAAMkgY.jpeg'
+title: "FrontInBH 2017: Um evento mágico"
+description: "Relato completo do FrontInBH 2017: primeira viagem de avião, palestras em inglês, networking no pós-evento e muito queijo. O melhor do front-end são as pessoas!"
+pubDate: "Sep 30 2017"
+heroImage: "../../assets/C92qw1xXsAAMkgY.jpeg"
 ---
 
 Olá Pessoal, o que falar desse evento que foi maravilhoso? Depois de quase duas semanas do evento, vou descrever como foi participar dessa experiência.
@@ -11,8 +11,7 @@ Decidi que iria ao evento no ano passado, quando estava assistindo às palestras
 
 <blockquote class="twitter-tweet" data-theme="dark">
     <p lang="pt" dir="ltr">E o <a href="https://twitter.com/frontinbh?ref_src=twsrc%5Etfw">@frontinbh</a> está de volta. Dia 23 de Setembro. Não fique de fora e garanta sua entrada em <a href="https://t.co/kxx39iXQWV">https://t.co/kxx39iXQWV</a> <a href="https://twitter.com/hashtag/FrontInBH2k17?src=hash&amp;ref_src=twsrc%5Etfw">#FrontInBH2k17</a> <a href="https://t.co/nxl3L15xAK">pic.twitter.com/nxl3L15xAK</a></p>&mdash; Front In BH (@frontinbh) <a href="https://twitter.com/frontinbh/status/855027414396788736?ref_src=twsrc%5Etfw">April 20, 2017</a>
-</blockquote> 
-
+</blockquote>
 
 Pensem em um evento fod@, agora adicionem a isso um apresentador vestido de tartaruga ninja, foi demais.
 
