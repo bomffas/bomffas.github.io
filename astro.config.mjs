@@ -16,6 +16,10 @@ export default defineConfig({
     },
   },
   redirects: {
+    "/newsletter": {
+      status: 301,
+      destination: "/",
+    },
     "/frontin-campinas-primeira-edic3a7c3a3o-2018-9dc1f72adf4a": {
       status: 301,
       destination: "/blog/frontin-campinas-primeira-edicao-2018",
