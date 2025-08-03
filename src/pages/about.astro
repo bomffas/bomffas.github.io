@@ -7,6 +7,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import "./_About.css";
 import PDFToDownload from "@/assets/Joao_Bomfim_-_Front_End_Developer.pdf";
 import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
+import Testimonials from "@components/Testimonials/Testimonials.astro";
 ---
 
 <!doctype html>
@@ -36,7 +37,7 @@ import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
           </p>
 
           <div class="about__action">
-            <a href={LINKEDIN} rel="nofollow" title="Linkedin" class="button"
+            <a href="/linkedin" rel="nofollow" title="Linkedin" class="button"
               >Lets Connect</a
             >
             <a href={PDFToDownload} class="button outline" download
@@ -113,6 +114,7 @@ import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
           </ul>
         </div>
       </section>
+      <Testimonials />
     </main>
     <Footer />
   </body>

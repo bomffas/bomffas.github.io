@@ -1,35 +1,49 @@
 ---
 import "./Testimonials.css";
+
+interface ITestimonials {
+  limit: number;
+}
+
+const { limit } = Astro.props as ITestimonials;
+
+const testimonials = [
+  {
+    author: "Liliane Barros",
+    content:
+      "Working with João/Bomffas at Atomos was a very enriching experience. He is a competent, decisive professional with great technical skills and a constant focus on practical and efficient solutions to challenges. We had the opportunity to collaborate on the development of an internal system for the company, which we delivered with excellence and which received praise from leadership. The integration between the design and development departments was fundamental to this success, and João played an essential role in this process. Furthermore, he is a friendly person who contributes to the relaxed atmosphere of the team's daily routine. I recommend João with complete confidence!",
+    position: "Product Designer",
+  },
+  {
+    author: "Cleverson Saraiva Pires",
+    content:
+      "João Bomfim (Bomffas) is a high-quality Dev with a deep understanding of the technologies he works with. He has a keen eye for business analysis and brings technical expertise that is highly sought after but hard to find these days. He knows when to accelerate and pace, bringing dynamism to delivery. He has a keen sense of urgency and analysis, a testament to the work we've done together.",
+    position: "Head Tech and Digital",
+  },
+  {
+    author: "Hugo Brilhante",
+    content:
+      "I worked with João Bomfim (Bomffas) on the development team at Juntos Somos Mais and was extremely impressed with his frontend skills. He is a dedicated professional who is passionate about creating amazing user interfaces. He has deep knowledge of modern web technologies and consistently delivers high-quality results. He is also an incredible person to work with, always willing to collaborate and share his knowledge with the team. I recommend João without hesitation for any frontend development project.",
+    position: "Senior Backend Engineer",
+  },
+];
+
+const qtyTestimonials = limit ? testimonials.slice(0, limit) : testimonials;
 ---
 
 <section class="testimonials">
   <h3 class="heading-one testimonials__title">what they say about me</h3>
   <ul class="testimonials__list">
-    <li class="testimonials__testimonial">
-      <h4 class="testimonials__author">Cleverson Saraiva Pires</h4>
-      <p class="body-regular testimonials__paragraph">
-        João Bomfim (Bomffas) is a high-quality Dev with a deep understanding of
-        the technologies he works with. He has a keen eye for business analysis
-        and brings technical expertise that is highly sought after but hard to
-        find these days. He knows when to accelerate and pace, bringing dynamism
-        to delivery. He has a keen sense of urgency and analysis, a testament to
-        the work we've done together.
-      </p>
-      <p class="body-regular">Head Tech e Digital</p>
-    </li>
-    <li class="testimonials__testimonial">
-      <h4 class="testimonials__author">Hugo Brilhante</h4>
-      <p class="body-regular testimonials__paragraph">
-        I worked with João Bomfim (Bomffas) on the development team at Juntos
-        Somos Mais and was extremely impressed with his frontend skills. He is a
-        dedicated professional who is passionate about creating amazing user
-        interfaces. He has deep knowledge of modern web technologies and
-        consistently delivers high-quality results. He is also an incredible
-        person to work with, always willing to collaborate and share his
-        knowledge with the team. I recommend João without hesitation for any
-        frontend development project.
-      </p>
-      <p class="body-regular">Senior Backend Engineer</p>
-    </li>
+    {
+      qtyTestimonials.map((testimonial) => (
+        <li class="testimonials__testimonial">
+          <h4 class="testimonials__author">{testimonial.author}</h4>
+          <p class="body-regular testimonials__paragraph">
+            {testimonial.content}
+          </p>
+          <p class="body-regular">{testimonial.position}</p>
+        </li>
+      ))
+    }
   </ul>
 </section>

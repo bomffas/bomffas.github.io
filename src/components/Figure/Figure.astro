@@ -1,10 +1,10 @@
 ---
-interface IGalleryImage {
+interface IFigure {
   source: any;
   description: string;
 }
 
-const { source, description } = Astro.props as IGalleryImage;
+const { source, description } = Astro.props as IFigure;
 import { Image } from "astro:assets";
 
 import "./Figure.css";
