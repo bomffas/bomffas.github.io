@@ -2,7 +2,7 @@
 title: "FrontIn Campinas — Primeira Edição — 2018"
 description: "Relato completo da primeira edição do FrontIn Campinas 2018. Palestras sobre código, carreira, acessibilidade e diversidade na comunidade tech. Evento incrível no Hotel Vitória Concept."
 pubDate: "05 18 2018"
-heroImage: "../../assets/c6e56b1e-62be-4847-9ddb-4a9b6a48983d.webp"
+heroImage: "@assets/frontin-campinas-primeira-edicao-2018/front-in-campinas-2018-brindes.webp"
 ---
 
 Foi a primeira edição do FrontIn Campinas e foi demais. O evento ocorreu no Hotel Vitória Concept, tivemos uma abertura 'like' StarWars, que foi bem maneira. As palestras foram bem diversas, tendo conteúdos sobre código, carreira e comunidade. O que eu acredito que seja muito importante, fiz um tweet sobre isso, pois ouvi comentários negativos sobre palestras que não tinham assuntos diretamente ligados a código.
@@ -23,9 +23,7 @@ Além das palestras o evento teve dinâmicas em que o pessoal pôde se conhecer 
 
 Pude rever algumas pessoas, conhecer outras e bater um papo sobre tecnologia. Valeu cada segundo fazer parte desse evento. Aguardando a próxima edição, que vai ser melhor e maior ainda. Parabéns à organização do evento.
 
-> _Eu conheci o_ [_@yaanmagale_](https://x.com/yaanmagale?ref_src=twsrc%5Etfw) _e a_ [_@samorim02_](https://x.com/samorim02?ref_src=twsrc%5Etfw) _pessoalmente, e reencontrei_ [_@wilcosta_dev_](https://x.com/wilcosta_dev?ref_src=twsrc%5Etfw) _e mais essa galera top 50 no_ [_@cpsfrontend_](https://x.com/cpsfrontend?ref_src=twsrc%5Etfw) [_pic.twitter.com/ypOY97S0pq_](https://t.co/ypOY97S0pq)
-
-> _\- Dan Vitoriano (_ [_@dnvtrn_](https://hashnode.com/@dnvtrn)_)_ [_12 de maio de 2018_](https://x.com/dnvtrn/status/995395042150895616?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Eu conheci o @yaanmagale e a <a href="https://twitter.com/samorim02?ref_src=twsrc%5Etfw">@samorim02</a> pessoalmente, e reencontrei @wilcosta_dev e mais essa galera top 50 no <a href="https://twitter.com/cpsfrontend?ref_src=twsrc%5Etfw">@cpsfrontend</a> <a href="https://t.co/ypOY97S0pq">pic.twitter.com/ypOY97S0pq</a></p>&mdash; Dan Vitoriano (@danvitoriano) <a href="https://twitter.com/danvitoriano/status/995395042150895616?ref_src=twsrc%5Etfw">May 12, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Valeu galera de Campinas :)
 

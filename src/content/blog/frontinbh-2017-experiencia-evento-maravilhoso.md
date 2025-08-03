@@ -2,7 +2,7 @@
 title: "FrontInBH 2017: Um evento mágico"
 description: "Relato completo do FrontInBH 2017: primeira viagem de avião, palestras em inglês, networking no pós-evento e muito queijo. O melhor do front-end são as pessoas!"
 pubDate: "Sep 30 2017"
-heroImage: "../../assets/C92qw1xXsAAMkgY.jpeg"
+heroImage: "@assets/frontinbh-2017-experiencia-evento-maravilhoso/frontinbh-2017-experiencia-evento-maravilhoso.jpeg"
 ---
 
 Olá Pessoal, o que falar desse evento que foi maravilhoso? Depois de quase duas semanas do evento, vou descrever como foi participar dessa experiência.

@@ -1,0 +1,18 @@
+---
+interface IFigure {
+  source: any;
+  description: string;
+}
+
+const { source, description } = Astro.props as IFigure;
+import { Image } from "astro:assets";
+
+import "./Figure.css";
+---
+
+<div class="figure">
+  <figure class="figure__picture">
+    <Image class="figure__image" src={source} alt={description} />
+    <figcaption class="figure__caption">{description}</figcaption>
+  </figure>
+</div>

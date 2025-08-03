@@ -1,0 +1,10 @@
+.user-photo {
+}
+
+.user-photo__image {
+  border-radius: 30px;
+}
+
+.user-photo__image--rounded-full {
+  border-radius: 100%;
+}

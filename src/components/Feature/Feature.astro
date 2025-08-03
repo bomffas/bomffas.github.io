@@ -1,15 +1,14 @@
 ---
 import "./Feature.css";
-import { Image } from "astro:assets";
-import userPhoto from "@/assets/user-photo.png";
 import { GITHUB, LINKEDIN, X } from "@/consts";
+import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
 ---
 
 <section class="feature">
   <div>
-    <picture>
-      <Image alt="sdsd" src={userPhoto} class="feature__author-image" />
-    </picture>
+    <div class="feature__author-image">
+      <UserPhoto size="100" rounded="full" />
+    </div>
     <h2 class="display feature__title">I'm Bomfim Developer based in Brazil</h2>
     <p class="body-regular feature__paragraph">
       a product designer and visual developer based in los angeles. I am skilled

@@ -2,7 +2,7 @@
 title: "Front In Sampa 2017 e Code In The Dark"
 description: "Relato completo da Front-End Week 2017: Front In Sampa com palestras sobre CSS, UX, React e acessibilidade, mais o Code In The Dark. Networking e muito aprendizado!"
 pubDate: "Jul 2 2017"
-heroImage: "../../assets/25424de0-c78a-4a50-ba09-ee9c1c2e5df4.jpeg"
+heroImage: "@assets/front-end-week-2017-front-in-sampa-code-in-the-dark/front-end-week-2017-front-in-sampa-code-in-the-dark-brindes.jpeg"
 ---
 
 _Front-End Week_ 2017 fechada com chave de ouro com muita informação e diversão.

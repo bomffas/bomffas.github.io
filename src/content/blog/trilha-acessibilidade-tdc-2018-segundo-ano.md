@@ -2,7 +2,7 @@
 title: "Trilha de Acessibilidade - TDC 2018"
 description: "Relato completo da Trilha de Acessibilidade no TDC 2018. Palestras sobre descrição de imagens, testes com deficientes visuais, projetos inovadores e barreiras na carreira tech."
 pubDate: "Jul 22 2018"
-heroImage: "../../assets/branding-tdc-mais-acessibilidade.png"
+heroImage: "@assets/trilha-acessibilidade-tdc-2018-segundo-ano/branding-tdc-mais-acessibilidade.png"
 ---
 
 Ae Galera, beleza? No último sábado (21), aconteceu a Trilha de Acessibilidade, seu segundo ano \\o/. As palestras foram ótimas, algumas delas me chamaram a atenção.
