@@ -1,0 +1,27 @@
+.figure {
+  display: grid;
+  justify-content: center;
+  background-color: #100f0f;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.figure__picture {
+  display: grid;
+  justify-content: center;
+}
+
+.figure__image {
+  all: unset;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.figure__caption {
+  font-family: Inter, sans-serif;
+  color: var(--gray);
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}

@@ -2,8 +2,29 @@
 title: "A Voz do Rock: A Final"
 description: "Relato emocionante da final do Festival A Voz do Rock 2017. Três meses de amizades, música e companheirismo culminando em uma final épica no Manifesto Bar."
 pubDate: "Apr 10 2017"
-heroImage: "../../assets/523af101-8074-432a-b97f-9ecb4a4716d4.png"
+heroImage: "@assets/a-voz-do-rock-2017/a-voz-do-rock-2017-promo.png"
 ---
+
+import Figure from "@components/Figure/Figure.astro";
+
+import galeraDaVozDoRock from "../../assets/a-voz-do-rock-2017/a-galera-da-a-voz-do-rock-2017.webp";
+import galeraDaVozDoRockFinal from "../../assets/a-voz-do-rock-2017/a-galera-no-final-da-voz-do-rock-nando-fernandes-2017.webp";
+import presentesAVozDoRock from "../../assets/a-voz-do-rock-2017/presentes-da-final-da-a-voz-do-rock-2017.png";
+
+export const images = [
+  {
+    source: galeraDaVozDoRock,
+    description: "Uma só voz. Somos todos a Voz do Rock.",
+  },
+  {
+    source: galeraDaVozDoRockFinal,
+    description: "Todos juntos para uma foto na final da A Voz Do Rock.",
+  },
+  {
+    source: presentesAVozDoRock,
+    description: "Mais ótimos CDs para a coleção.",
+  },
+];
 
 A Voz do Rock 2017
 
@@ -35,16 +56,8 @@ Por último e não menos importante, agradecer imensamente ao Nando Fernandes e 
 
 It's just the beginning
 
-![](../../assets/fc64df94-b2ac-4e58-a5c5-6ae39d275d1e.jpeg)
+<Figure source={images[0].source} description={images[0].description} />
 
-Uma só voz. Somos todos a Voz do Rock.
+<Figure source={images[1].source} description={images[1].description} />
 
-![](../../assets/9cbbc0f7-2e4a-4716-be2c-bf660f33f70e.jpeg)
-
-Galera
-
-E teve outros presentes também.
-
-![](../../assets/dcc88c7e-36a2-4c25-8f73-b5d391d12fe5.jpeg)
-
-Mais ótimos CDs para a coleção.
+<Figure source={images[2].source} description={images[2].description} />

@@ -2,7 +2,7 @@
 title: "Trabalho em São Paulo e Primeiros Meetups"
 description: "Experiência de trabalhar em São Paulo: fretado vs morar perto do trabalho, dicas para encontrar quarto e como aproveitar meetups na capital. Mudança que vale a pena."
 pubDate: "Apr 30 2021"
-heroImage: "../../assets/meetups-eventos-sao-paulo.webp"
+heroImage: "@assets/experiencia-trabalhar-sao-paulo-fretado-vs-mora/meetups-eventos-sao-paulo.webp"
 ---
 
 Olá Pessoal, beleza?

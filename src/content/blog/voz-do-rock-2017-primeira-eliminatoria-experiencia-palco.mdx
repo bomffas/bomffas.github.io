@@ -2,8 +2,25 @@
 title: "A Voz do Rock 2017 — Novos Amigos e Boas Experiencias"
 description: "Minha primeira experiência no A Voz do Rock 2017. Da inscrição com Stratovarius à apresentação de Nova Era do Angra. Novos amigos e muito aprendizado no palco."
 pubDate: "Jan 24 2017"
-heroImage: "../../assets/523af101-8074-432a-b97f-9ecb4a4716d4.png"
+heroImage: "@assets/a-voz-do-rock-2017/a-voz-do-rock-2017-promo.png"
 ---
+
+import Figure from "@components/Figure/Figure.astro";
+
+import primeiraEliminatoria from "@assets/a-voz-do-rock-2017/grupo-da-primeira-eliminatoria-a-voz-do-rock-2017.jpeg";
+import fotoComNandoFernandes from "@assets/a-voz-do-rock-2017/nando-fernando-e-joao-bomfim-a-voz-do-rock-2017.jpeg";
+
+export const images = [
+  {
+    source: primeiraEliminatoria,
+    description: "Foto com a galera da primeira eliminatória.",
+  },
+  {
+    source: fotoComNandoFernandes,
+    description:
+      "Nando Fernandes e Eu (Joao Bomfim), na frente do Manifesto Bar",
+  },
+];
 
 Bom, antes de mais nada quero agradecer ao meu Brother [Victor Alves](https://www.instagram.com/victoralvesmusic/), por ter me acompanhado nessa caminhada, valeu mesmo ❤
 
@@ -19,11 +36,9 @@ Chegado o momento, subi ao palco, sendo chamado por Nando Fernandes, que foi uma
 
 O que levo desse dia foram os novos amigos e a experiência de uma apresentação, que me mostrou no que devo focar daqui para frente.
 
-![](../../assets/d4a6e8d9-d931-4c26-91ef-55b16679dda3.jpeg)
-Fotos com os novos amigos
+<Figure source={images[0].source} description={images[0].description} />
 
-![](../../assets/72bce395-30c2-44bf-971c-d78a817b2f22.jpeg)
-A foto com o CARA, Nando Fernandes
+<Figure source={images[1].source} description={images[1].description} />
 
 Recentemente ouvindo uma das músicas do Hangar, escolhi uma frase, que reflete bem tudo isso.
 

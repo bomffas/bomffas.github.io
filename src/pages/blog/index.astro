@@ -6,7 +6,7 @@ import Header from "@components/Header/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
 import PostItem from "../../components/PostItem/PostItem.astro";
 
-import "./Blog.css";
+import "./_Blog.css";
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -14,7 +14,7 @@ const posts = (await getCollection("blog")).sort(
 ---
 
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>

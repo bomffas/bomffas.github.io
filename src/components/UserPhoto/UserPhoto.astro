@@ -1,0 +1,18 @@
+---
+interface IGalleryImage {
+  size: string;
+  rounded: "full" | "default";
+}
+
+const { size = "100", rounded = "default" } = Astro.props as IGalleryImage;
+
+import "./UserPhoto.css";
+---
+
+<picture class="user-photo">
+  <img
+    class={`user-photo__image ${rounded === "full" ? "user-photo__image--rounded-full" : ""}`}
+    alt=""
+    src=`https://www.gravatar.com/avatar/8a465e5770a149b547052163826eca97c061ad1263bdf8616a25e1a60482ca9d?s=${size}`
+  />
+</picture>
