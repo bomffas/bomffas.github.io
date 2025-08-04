@@ -21,6 +21,6 @@ Com a escolha de morar perto do trabalho, consegui desacelerar o dia e tirar pre
 
 ### Meetups
 
-Com o tempo de sobra que consegui, comecei a ir aos meetups, que quando trabalhava na baixada ficavam muito difíceis de ir e cansativos. Até o momento consegui ir em dois, o primeiro foi o UX de Quinta do pessoal do UXPA-SP, que teve como assunto o UX Strategy, lá na Thoughtworks. O outro foi o CSS is cool do Nerdzão, que aconteceu no Moip Pagamentos. Ambos foram demais, recomendo acompanhar o [Nerdzão](https://web.archive.org/web/20220811083026/https://www.meetup.com/pt-BR/Nerdzao/) e o [UXPA São Paulo](https://web.archive.org/web/20220811083026/https://www.meetup.com/pt-BR/UXPA-Sao-Paulo/).
+Com o tempo de sobra que consegui, comecei a ir aos meetups, que quando trabalhava na baixada ficavam muito difíceis de ir e cansativos. Até o momento consegui ir em dois, o primeiro foi o UX de Quinta do pessoal do UXPA-SP, que teve como assunto o UX Strategy, lá na Thoughtworks. O outro foi o CSS is cool do Nerdzão, que aconteceu no Moip Pagamentos. Ambos foram demais, recomendo acompanhar o [Nerdzão](https://www.meetup.com/pt-BR/Nerdzao/) e o [UXPA São Paulo](https://www.meetup.com/pt-BR/UXPA-Sao-Paulo/).
 
 Foi uma mudança grande vir trabalhar em Sampa e ótima. Quando aparecerem oportunidades de reinventar sua rotina, avalie e se a única coisa que te impede é o medo, abrace-o e vá.

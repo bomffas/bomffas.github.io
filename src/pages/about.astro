@@ -2,7 +2,7 @@
 import BaseHead from "@components/BaseHead.astro";
 import Footer from "@components/Footer/Footer.astro";
 import Header from "@components/Header/Header.astro";
-import { LINKEDIN } from "@/consts";
+import JoaoBomfimPhoto from "@assets/user-profile/joao-bomfim-profile-about.png";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import "./_About.css";
 import PDFToDownload from "@/assets/Joao_Bomfim_-_Front_End_Developer.pdf";
@@ -20,7 +20,7 @@ import Testimonials from "@components/Testimonials/Testimonials.astro";
     <main>
       <section class="about">
         <div class="about__user-picture">
-          <UserPhoto size="425" rounded />
+          <UserPhoto source={JoaoBomfimPhoto} rounded />
         </div>
 
         <div class="about__info">
