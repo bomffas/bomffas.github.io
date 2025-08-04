@@ -9,9 +9,19 @@ pre-push:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
       run: npx prettier . --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {push_files}
 
+    build-check:
+      run: npm run build
+      fail_text: "Build failed!"
+
+
 pre-commit:
   commands:
     check:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
       run: npx prettier . --write --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      stage_fixed: true
+
+    build:
+      run: npm run build
+      fail_text: "Build failed! Fix errors before committing."
       stage_fixed: true
