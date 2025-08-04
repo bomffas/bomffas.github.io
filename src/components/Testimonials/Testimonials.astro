@@ -41,7 +41,9 @@ const qtyTestimonials = limit ? testimonials.slice(0, limit) : testimonials;
           <p class="body-regular testimonials__paragraph">
             {testimonial.content}
           </p>
-          <p class="body-regular">{testimonial.position}</p>
+          <p class="body-regular testimonials__author-position">
+            {testimonial.position}
+          </p>
         </li>
       ))
     }

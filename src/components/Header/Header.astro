@@ -13,18 +13,28 @@ import { EMAIL_EN } from "@/consts";
     <div class="header__menu">
       <ul class="header__menu-ul">
         <li>
-          <HeaderLink class="paragraph header__menu-link" href="/"
-            >Home</HeaderLink
+          <HeaderLink
+            aria-label="João Bomfim - Home Page"
+            title="João Bomfim - Home Page"
+            class="paragraph header__menu-link"
+            href="/">Home</HeaderLink
+          >
+        </li>
+
+        <li>
+          <HeaderLink
+            aria-label="Learn more about me"
+            title="Learn more about me"
+            class="paragraph header__menu-link"
+            href="/about">About</HeaderLink
           >
         </li>
         <li>
-          <HeaderLink class="paragraph header__menu-link" href="/about"
-            >About</HeaderLink
-          >
-        </li>
-        <li>
-          <HeaderLink class="paragraph header__menu-link" href="/blog"
-            >Blog</HeaderLink
+          <HeaderLink
+            aria-label="See all my posts"
+            title="See all my posts"
+            class="paragraph header__menu-link"
+            href="/blog">Blog</HeaderLink
           >
         </li>
       </ul>

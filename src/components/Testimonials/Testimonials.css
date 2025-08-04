@@ -32,6 +32,11 @@
 
 .testimonials__paragraph {
   margin-bottom: 40px;
+  color: var(--gray--third);
+}
+
+.testimonials__author-position {
+  color: var(--gray--third);
 }
 
 @media (width >= 768px) {

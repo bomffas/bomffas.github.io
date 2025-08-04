@@ -22,6 +22,12 @@
   initial-value: #1b1919;
 }
 
+@property --gray--third {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #aeaeae;
+}
+
 @property --darken-gray {
   syntax: "<color>";
   inherits: false;

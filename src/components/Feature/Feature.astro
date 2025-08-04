@@ -2,12 +2,13 @@
 import "./Feature.css";
 import { GITHUB, LINKEDIN, X } from "@/consts";
 import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
+import JoaoBomfimPhoto from "@assets/user-profile/joao-bomfim-profile-home.png";
 ---
 
 <section class="feature">
   <div>
     <div class="feature__author-image">
-      <UserPhoto size="100" rounded="full" />
+      <UserPhoto source={JoaoBomfimPhoto} rounded="full" />
     </div>
     <h2 class="display feature__title">I'm Bomfim Developer based in Brazil</h2>
     <p class="body-regular feature__paragraph">
@@ -19,8 +20,10 @@ import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
         <a
           href={LINKEDIN}
           target="_blank"
-          rel="nofollow"
+          rel="noopener noreferrer"
           class="feature__social-item"
+          title="Visit my LinkedIn profile"
+          aria-label="Visit my LinkedIn profile"
         >
           <svg
             class="feature__svg"
@@ -36,7 +39,14 @@ import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
         </a>
       </li>
       <li>
-        <a href={X} target="_blank" rel="nofollow" class="feature__social-item">
+        <a
+          href={X}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Follow my updates on X"
+          aria-label="Follow my updates on X"
+          class="feature__social-item"
+        >
           <svg class="feature__svg" viewBox="0 0 24 24" aria-hidden="true">
             <g>
               <path
@@ -51,7 +61,9 @@ import UserPhoto from "@components/UserPhoto/UserPhoto.astro";
         <a
           href={GITHUB}
           target="_blank"
-          rel="nofollow"
+          rel="noopener noreferrer"
+          title="See my projects on GitHub"
+          aria-label="See my projects on GitHub"
           class="feature__social-item"
         >
           <svg class="feature__svg" viewBox="0 0 16 16" aria-hidden="true">

@@ -27,7 +27,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         </picture>
         <div class="prose">
           <div class="title">
-            <div class="date">
+            <div class="post__date">
+              Postado em:
               <FormattedDate date={pubDate} />
               {
                 updatedDate && (
