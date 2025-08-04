@@ -13,7 +13,6 @@ pre-push:
       run: npm run build
       fail_text: "Build failed!"
 
-
 pre-commit:
   commands:
     check:
