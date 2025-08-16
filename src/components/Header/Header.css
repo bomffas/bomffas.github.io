@@ -42,11 +42,15 @@
     left: 0;
     width: 100vw;
     height: auto;
-    border-top: 1px solid var(--white);
+    border-top: 1px solid #ffffff45;
     padding: 20px 0;
     background-color: var(--light-black);
     display: none;
     justify-content: center;
+
+    &.header__menu--visible {
+      display: flex;
+    }
   }
 
   .header__menu-toggle {
@@ -55,6 +59,7 @@
     height: 24px;
     background-color: transparent;
     border: 0;
+    text-indent: -9999px;
     background-image:
       linear-gradient(to left, var(--white), var(--white)),
       linear-gradient(to left, var(--white), var(--white)),
