@@ -48,9 +48,9 @@
     display: none;
     justify-content: center;
 
-      &.header__menu--visible {
-          display: flex;
-      }
+    &.header__menu--visible {
+      display: flex;
+    }
   }
 
   .header__menu-toggle {
