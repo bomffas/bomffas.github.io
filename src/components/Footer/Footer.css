@@ -48,6 +48,16 @@
   }
 }
 
+.footer__paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__astro-svg {
+  width: 24px;
+  margin-left: 5px;
+}
+
 @media (width > 768px) {
   .footer__title {
     text-align: center;
