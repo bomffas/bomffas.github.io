@@ -49,3 +49,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <Footer />
   </body>
 </html>
+
+<script is:inline define:vars={{ postTitle: title }}>
+  document.addEventListener("DOMContentLoaded", function () {
+    window.posthog?.capture("blog_post_viewed", { post_title: postTitle });
+  });
+</script>

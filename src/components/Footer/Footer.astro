@@ -9,5 +9,20 @@ import "./Footer.css";
   <span class="footer__title">Let's keep in <br /> touch</span>
   <a class="footer__email heading-two" href={`mailto:${EMAIL_EN}`}>{EMAIL_EN}</a
   >
-  <p class="footer__paragraph">&copy; {today.getFullYear()} João Bomfim. All rights reserved. - Made with <a target="_blank" href="https://astro.build/" rel="nofollow"><img class="footer__astro-svg" src="/favicon.svg"></a></p>
+  <p class="footer__paragraph">
+    &copy; {today.getFullYear()} João Bomfim. All rights reserved. - Made with <a
+      target="_blank"
+      href="https://astro.build/"
+      rel="nofollow"><img class="footer__astro-svg" src="/favicon.svg" /></a>
+  </p>
 </footer>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .querySelector(".footer__email")
+      ?.addEventListener("click", function () {
+        window.posthog?.capture("email_contact_clicked");
+      });
+  });
+</script>

@@ -50,5 +50,9 @@ import { EMAIL_EN } from "@/consts";
 
   menuButton?.addEventListener("click", () => {
     menuContainer?.classList.toggle("header__menu--visible");
+    const isOpen = menuContainer?.classList.contains("header__menu--visible");
+    window.posthog?.capture("nav_menu_toggled", {
+      state: isOpen ? "open" : "closed",
+    });
   });
 </script>

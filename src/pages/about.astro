@@ -35,8 +35,11 @@ import Testimonials from "@components/Testimonials/Testimonials.astro";
           </p>
 
           <div class="about__action">
-            <a href="/linkedin" rel="nofollow" title="Linkedin" class="button"
-              >Let's Connect</a
+            <a
+              href="/linkedin"
+              rel="nofollow"
+              title="Linkedin"
+              class="button js-connect-cta">Let's Connect</a
             >
           </div>
         </div>
@@ -128,3 +131,13 @@ import Testimonials from "@components/Testimonials/Testimonials.astro";
     <Footer />
   </body>
 </html>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .querySelector(".js-connect-cta")
+      ?.addEventListener("click", function () {
+        window.posthog?.capture("connect_cta_clicked");
+      });
+  });
+</script>

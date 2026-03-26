@@ -27,5 +27,15 @@ const limitPost = posts.slice(0, 4);
       ))
     }
   </ul>
-  <a href="/blog" class="button outline"> Read more </a>
+  <a href="/blog" class="button outline js-read-more-blog"> Read more </a>
 </section>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .querySelector(".js-read-more-blog")
+      ?.addEventListener("click", function () {
+        window.posthog?.capture("read_more_blog_clicked");
+      });
+  });
+</script>
