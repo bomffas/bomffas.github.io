@@ -2,15 +2,15 @@
 
 The wizard has completed a deep integration of your project. PostHog analytics was instrumented across 8 files in the Astro static site. A reusable `posthog.astro` component was created and loaded site-wide via `BaseHead.astro`. Seven custom events capture the key user interactions: social profile link clicks, blog list CTA clicks, individual blog post clicks and views, footer email contact clicks, mobile nav menu toggles, and about-page "Let's Connect" CTA clicks. All event scripts use Astro's `is:inline` directive to avoid TypeScript processing issues, and all credentials are loaded from environment variables.
 
-| Event | Description | File |
-|---|---|---|
-| `social_link_clicked` | User clicks a social profile link (LinkedIn, GitHub, X) in the hero/feature section. Captures `platform` and `location` properties. | `src/components/Feature/Feature.astro` |
-| `connect_cta_clicked` | User clicks the "Let's Connect" CTA button on the about page. | `src/pages/about.astro` |
-| `read_more_blog_clicked` | User clicks the "Read more" button on the blog list section of the homepage. | `src/components/BlogList/BlogList.astro` |
-| `blog_post_clicked` | User clicks a blog post item in the listing. Captures `post_id` and `post_title` properties. | `src/components/PostItem/PostItem.astro` |
-| `blog_post_viewed` | A blog post page is loaded and viewed. Captures `post_title` property. | `src/layouts/Post/Post.astro` |
-| `email_contact_clicked` | User clicks the email link in the footer. | `src/components/Footer/Footer.astro` |
-| `nav_menu_toggled` | User opens or closes the mobile navigation menu. Captures `state` (`open`/`closed`). | `src/components/Header/Header.astro` |
+| Event                    | Description                                                                                                                         | File                                     |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| `social_link_clicked`    | User clicks a social profile link (LinkedIn, GitHub, X) in the hero/feature section. Captures `platform` and `location` properties. | `src/components/Feature/Feature.astro`   |
+| `connect_cta_clicked`    | User clicks the "Let's Connect" CTA button on the about page.                                                                       | `src/pages/about.astro`                  |
+| `read_more_blog_clicked` | User clicks the "Read more" button on the blog list section of the homepage.                                                        | `src/components/BlogList/BlogList.astro` |
+| `blog_post_clicked`      | User clicks a blog post item in the listing. Captures `post_id` and `post_title` properties.                                        | `src/components/PostItem/PostItem.astro` |
+| `blog_post_viewed`       | A blog post page is loaded and viewed. Captures `post_title` property.                                                              | `src/layouts/Post/Post.astro`            |
+| `email_contact_clicked`  | User clicks the email link in the footer.                                                                                           | `src/components/Footer/Footer.astro`     |
+| `nav_menu_toggled`       | User opens or closes the mobile navigation menu. Captures `state` (`open`/`closed`).                                                | `src/components/Header/Header.astro`     |
 
 ## Next steps
 
