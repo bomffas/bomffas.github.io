@@ -19,7 +19,7 @@ export default defineConfig({
   redirects: {
     "/linkedin": {
       status: 301,
-      destination: "https://www.linkedin.com/in/bomffas",
+      destination: "https://www.linkedin.com/in/joao-bomfim",
     },
     "/newsletter": {
       status: 301,
